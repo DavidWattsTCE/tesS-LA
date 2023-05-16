@@ -299,7 +299,7 @@ function createText() {
 
     textMesh1.position.x = 4;
     textMesh1.position.y = 40;
-    textMesh1.position.z = 1.5+2/2;
+    textMesh1.position.z = 1.5+2.4/2;
 
     if (namebbox.max.x - namebbox.min.x > -xMinLimit) {
         var scaleFactor = (xMaxLimit - xMinLimit)/(namebbox.max.x - namebbox.min.x);
@@ -333,7 +333,7 @@ function createText() {
 
     unitTextMesh.position.x = 35;
     unitTextMesh.position.y = 17;
-    unitTextMesh.position.z = 1.5+0.8/2;
+    unitTextMesh.position.z = 1.5+1.9/2;
 
     if (namebbox.max.x - namebbox.min.x > -xMinLimit) {
         var scaleFactor = (xMaxLimit - xMinLimit)/(namebbox.max.x - namebbox.min.x);
@@ -368,7 +368,7 @@ function createText() {
 
     dateTextMesh.position.x = -25;
     dateTextMesh.position.y = -22;
-    dateTextMesh.position.z = 1.5+0.8/2;
+    dateTextMesh.position.z = 1.5+1.9/2;
     
     group.add(dateTextMesh);
 
@@ -397,7 +397,7 @@ function createText() {
 
     yearTextMesh.position.x = -5;
     yearTextMesh.position.y = -39;
-    yearTextMesh.position.z = 1.5+1.8/2;
+    yearTextMesh.position.z = 1.5+2.4/2;
 
     group.add(yearTextMesh);
     

@@ -430,7 +430,7 @@ function exportBinary() {
 
     // Parse the input and generate the STL encoded output
     const result = exporter.parse( group, options );
-    saveArrayBuffer( result, text + ' 3D arrow.stl' );
+    saveArrayBuffer( result, text + ' SLA badge.stl' );
 }
 
 const link = document.createElement( 'a' );
